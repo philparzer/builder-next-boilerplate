@@ -2,10 +2,13 @@
 
 CMS boilerplate repos suck. This one doesn't.
 
-⚡ Next.js
+⚡ Next13 (no app dir yet)
+
 👷‍♀️ Builder.io
+
 💅 Tailwind CSS
-🌐 Localization support out of the box
+
+🌐 Localization
 
 ## Getting Started
 
@@ -43,7 +46,8 @@ npm run dev
 ## TODO
 
 - [ ] Add fetch example for CMS Data models
-- [ ] Add example on how to use Section models
+- [ ] Add example on how to use Section models (prob commented out code block on how to use section for home)
 - [ ] Remove `any` in page
 - [ ] Look into possibly unnecessary "duplicate" index page (regarding: [...page].tsx)
 - [ ] Add production instructions
+- [ ] Look into loc pricing plan changes
