@@ -24,7 +24,7 @@ CMS boilerplate repos suck. This one doesn't.
 2. You most likely want to disable Builder's built-in components (this step ensures editors only use the components you've built)
 3. Get a primer on how Builder works over in their [Docs](https://docs.builder.io/c/docs)
 
-### Repo Structure
+### Folder Structure
 
 Get familiar with the repo's structure before you start building your site. I added some comments to help you understand what's going on.
 
