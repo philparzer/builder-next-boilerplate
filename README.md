@@ -8,7 +8,7 @@ CMS boilerplate repos suck. This one doesn't.
 
 💅 Tailwind CSS
 
-🌐 Localization support out of the box
+🌐 Localization
 
 ## Getting Started
 
