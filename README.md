@@ -2,7 +2,7 @@
 
 CMS boilerplate repos suck. This one doesn't.
 
-⚡ Next.js
+⚡ Next13 (no app dir yet)
 
 👷‍♀️ Builder.io
 
