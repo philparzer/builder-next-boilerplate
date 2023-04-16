@@ -48,13 +48,10 @@ export async function getStaticPaths() {
     fields: 'data.url', 
     options: { noTargeting: true },
   });
-  
-  // Filter out the index page
-  const filteredPages = pages.filter(page => page.data?.url !== '/');
 
   // Generate the static paths for all pages in Builder
   return {
-    paths: filteredPages.map((page) => ({
+    paths: pages.map((page) => ({
       params: { page: page.data?.url?.slice(1).split('/') }, // Remove the leading slash and split the URL into an array of strings
     })),
     fallback: true,
