@@ -3,8 +3,11 @@
 CMS boilerplate repos suck. This one doesn't.
 
 ⚡ Next.js
+
 👷‍♀️ Builder.io
+
 💅 Tailwind CSS
+
 🌐 Localization support out of the box
 
 ## Getting Started
@@ -47,3 +50,4 @@ npm run dev
 - [ ] Remove `any` in page
 - [ ] Look into possibly unnecessary "duplicate" index page (regarding: [...page].tsx)
 - [ ] Add production instructions
+- [ ] Look into loc pricing plan changes
