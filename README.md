@@ -1,8 +1,5 @@
 # Next + Builder + Tailwind
 
-> **Warning**
-> This repo is WiP
-
 CMS boilerplate repos suck. This one doesn't.
 
 ⚡ Next13 (no app dir yet)
