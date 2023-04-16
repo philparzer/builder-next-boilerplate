@@ -42,21 +42,24 @@ export async function getStaticProps({ params, locale }: GetStaticPropsContext) 
 // Define a function that generates the 
 // static paths for all pages in Builder
 export async function getStaticPaths() {
-    // Get a list of all pages in Builder
-    const pages = await builder.getAll('page', {
-      // We only need the URL field
-      fields: 'data.url', 
-      options: { noTargeting: true },
-    });
+  // Get a list of all pages in Builder
+  const pages = await builder.getAll('page', {
+    // We only need the URL field
+    fields: 'data.url', 
+    options: { noTargeting: true },
+  });
+  
+  // Filter out the index page
+  const filteredPages = pages.filter(page => page.data?.url !== '/');
 
-    // Generate the static paths for all pages in Builder
-    return {
-      paths: pages.map((page) => ({
-        params: { page: page.data?.url?.slice(1).split('/') }, // Remove the leading slash and split the URL into an array of strings
-      })),
-      fallback: true,
-    };
-  }
+  // Generate the static paths for all pages in Builder
+  return {
+    paths: filteredPages.map((page) => ({
+      params: { page: page.data?.url?.slice(1).split('/') }, // Remove the leading slash and split the URL into an array of strings
+    })),
+    fallback: true,
+  };
+}
   
 
 // Define the Page component
