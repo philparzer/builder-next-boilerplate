@@ -46,7 +46,7 @@ npm run dev
 ## TODO
 
 - [ ] Add fetch example for CMS Data models
-- [ ] Add example on how to use Section models
+- [ ] Add example on how to use Section models (prob commented out code block on how to use section for home)
 - [ ] Remove `any` in page
 - [ ] Look into possibly unnecessary "duplicate" index page (regarding: [...page].tsx)
 - [ ] Add production instructions
