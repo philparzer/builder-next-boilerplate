@@ -26,7 +26,7 @@ CMS boilerplate repos suck. This one doesn't.
 
 ### Repo Structure
 
-Get familiar with the repo structure before you start building your site. I've added some comments to help you understand what's going on.
+Get familiar with the repo's structure before you start building your site. I added some comments to help you understand what's going on.
 
 📦your-project<br>
  ┣ 📂node_modules<br>
