@@ -28,29 +28,29 @@ CMS boilerplate repos suck. This one doesn't.
 
 Get familiar with the repo structure before you start building your site. I've added some comments to help you understand what's going on.
 
-📦your-project
- ┣ 📂node_modules
- ┣ 📂public
- ┣ 📂components
- ┃ ┣ 📂**builder** `I recommend separating builder components from other components`
- ┃ ┃ ┗ 📜**Card.tsx** `example builder component`
- ┃ ┗ 📜**LanguageSwitch.tsx** `example language switch component`
- ┣ 📂styles
- ┃ ┗ 📜globals.css
- ┣ 📂pages
- ┃ ┣ **📜_app.tsx** `used to import styles, you probably won't need to edit this`
- ┃ ┗ **📜&#91;&#91;...page&#93;&#93;.tsx** `optional catch-all route for all pages, including index`
- ┣ 📜**builder.config.ts** `register your components here`
- ┣ 📜.eslintrc.json
- ┣ 📜postcss.config.js
- ┣ 📜tailwind.config.js
- ┣ 📜tsconfig.json
- ┣ 📜.gitignore
- ┣ **📜.env.local.example** `reference for your .env.local file, don't fill out this file`
- ┣ 📜README&hairsp;.md
- ┣ 📜**next.config.js** `update locales here`
- ┣ 📜package-lock.json
- ┗ 📜package.json
+📦your-project<br>
+ ┣ 📂node_modules<br>
+ ┣ 📂public<br>
+ ┣ 📂components<br>
+ ┃ ┣ 📂**builder** `I recommend separating builder components from other components`<br>
+ ┃ ┃ ┗ 📜**Card.tsx** `example builder component`<br>
+ ┃ ┗ 📜**LanguageSwitch.tsx** `example language switch component`<br>
+ ┣ 📂styles<br>
+ ┃ ┗ 📜globals.css<br>
+ ┣ 📂pages<br>
+ ┃ ┣ **📜_app.tsx** `used to import styles, you probably won't need to edit this`<br>
+ ┃ ┗ **📜&#91;&#91;...page&#93;&#93;.tsx** `optional catch-all route for all pages, including index`<br>
+ ┣ 📜**builder.config.ts** `register your components here`<br>
+ ┣ 📜.eslintrc.json<br>
+ ┣ 📜postcss.config.js<br>
+ ┣ 📜tailwind.config.js<br>
+ ┣ 📜tsconfig.json<br>
+ ┣ 📜.gitignore<br>
+ ┣ **📜.env.local.example** `reference for your .env.local file, don't fill out this file`<br>
+ ┣ 📜README&hairsp;.md<br>
+ ┣ 📜**next.config.js** `update locales here`<br>
+ ┣ 📜package-lock.json<br>
+ ┗ 📜package.json<br>
 
 ### Local Dev Setup
 
