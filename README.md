@@ -39,7 +39,7 @@ Get familiar with the repo structure before you start building your site. I've a
  ┃ ┗ 📜globals.css<br>
  ┣ 📂pages<br>
  ┃ ┣ **📜_app.tsx** `used to import styles, you probably won't need to edit this`<br>
- ┃ ┗ **📜&#91;&#91;...page&#93;&#93;.tsx** `optional catch-all route for all pages, including index`<br>
+ ┃ ┗ **📜&#91;&#91;...page&#93;&#93;.tsx** `catch-all route for all pages, including index`<br>
  ┣ 📜**builder.config.ts** `register your components here`<br>
  ┣ 📜.eslintrc.json<br>
  ┣ 📜postcss.config.js<br>
