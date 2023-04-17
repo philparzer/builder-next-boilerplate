@@ -28,29 +28,29 @@ CMS boilerplate repos suck. This one doesn't.
 
 Get familiar with the repo's structure before you start building your site. I added some comments to help you understand what's going on.
 
-📦your-project<br>
- ┣ 📂node_modules<br>
- ┣ 📂public<br>
- ┣ 📂components<br>
- ┃ ┣ 📂**builder** `I recommend separating builder components from other components`<br>
- ┃ ┃ ┗ 📜**Card.tsx** `example builder component`<br>
- ┃ ┗ 📜**LanguageSwitch.tsx** `example language switch component`<br>
- ┣ 📂styles<br>
- ┃ ┗ 📜globals.css<br>
- ┣ 📂pages<br>
- ┃ ┣ **📜_app.tsx** `used to import styles, you probably won't need to edit this`<br>
- ┃ ┗ **📜&#91;&#91;...page&#93;&#93;.tsx** `catch-all route for all pages, including index`<br>
- ┣ 📜**builder.config.ts** `register your components here`<br>
- ┣ 📜.eslintrc.json<br>
- ┣ 📜postcss.config.js<br>
- ┣ 📜tailwind.config.js<br>
- ┣ 📜tsconfig.json<br>
- ┣ 📜.gitignore<br>
- ┣ **📜.env.local.example** `reference for your .env.local file, don't fill out this file`<br>
- ┣ 📜README&hairsp;.md<br>
- ┣ 📜**next.config.js** `update locales here`<br>
- ┣ 📜package-lock.json<br>
- ┗ 📜package.json<br>
+📦 your-project<br>
+ ┣ 📂 node_modules<br>
+ ┣ 📂 public<br>
+ ┣ 📂 components<br>
+ ┃ ┣ 📂 **builder** `I recommend separating builder components from other components`<br>
+ ┃ ┃ ┗ 📄 **Card.tsx** `example builder component`<br>
+ ┃ ┗ 📄 **LanguageSwitch.tsx** `example language switch component`<br>
+ ┣ 📂 styles<br>
+ ┃ ┗ 📄 globals.css<br>
+ ┣ 📂 pages<br>
+ ┃ ┣ **📄 _app.tsx** `used to import styles, you probably won't need to edit this`<br>
+ ┃ ┗ **📄 &#91;&#91;...page&#93;&#93;.tsx** `catch-all route for all pages, including index`<br>
+ ┣ 📄 **builder.config.ts** `register your components here`<br>
+ ┣ 📄 .eslintrc.json<br>
+ ┣ 📄 postcss.config.js<br>
+ ┣ 📄 tailwind.config.js<br>
+ ┣ 📄 tsconfig.json<br>
+ ┣ 📄.gitignore<br>
+ ┣  **📄.env.local.example** `reference for your .env.local file, don't fill out this file`<br>
+ ┣ 📄 README&hairsp;.md<br>
+ ┣ 📄 **next.config.js** `update locales here`<br>
+ ┣ 📄 package-lock.json<br>
+ ┗ 📄 package.json<br>
 
 ### Local Dev Setup
 
