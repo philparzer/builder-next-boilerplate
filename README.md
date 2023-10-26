@@ -1,3 +1,6 @@
+> [!WARNING]  
+> UPDATE: Localization is now a paid feature in Builder.io so this repo doesn't really work anymore if you don't choose one of Builder's paid plans :( I personally won't be using Builder.io for future client projects because they are not transparent regarding pricing changes and broke my personal site in prod without informing me.
+
 # Next + Builder + Tailwind
 
 CMS boilerplate repos suck. This one doesn't.
